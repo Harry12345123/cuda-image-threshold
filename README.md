@@ -43,3 +43,29 @@ Harry12345123
 ## More
 
 This repository is one of the foundational CUDA image processing demos in my GitHub project series.
+
+
+## Requirements
+Before building this project, make sure your system has:
+
+- CUDA Toolkit
+- OpenCV
+- CMake 3.18 or later
+- C++17 compatible compiler
+
+## Build
+Use the following commands to compile the project:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make -j
+
+## Run
+After building, run the program with:
+
+./cuda_image_threshold ./input.jpg
+
+
+
